@@ -20,7 +20,7 @@ export default function App() {
   const [etherium, setEtherium] = useState([])
 
   async function obtemDados(){
-    let url = `http://economia.awesomeapi.com.br/json/all`
+    let url = `https://economia.awesomeapi.com.br/json/all`
 
     await fetch(url)
     .then(response => response.json())
